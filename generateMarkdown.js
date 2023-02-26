@@ -1,5 +1,12 @@
+const licenseLinks = require("./licenseLink");
+
 function generateMarkdown(data) {
+  // set url for license badge
+  data.licenseBadge = licenseLinks[data.license];
+
+  // return markdown content
   return `# ${data.title}
+
  ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
@@ -22,12 +29,10 @@ function generateMarkdown(data) {
   ${data.licensing}
 
   ## Contribution:
-  ${data.contribution}
+  This repository is licensed under the${data.contribution} license.
 
   ## Testing:
   ${data.testing}
-
-  
 `;
 }
 

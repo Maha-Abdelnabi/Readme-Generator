@@ -47,14 +47,13 @@ const questions = [
     name: "licensing",
     message: "Choose a license for your project.",
     choices: [
-      "Apache",
       "MIT",
-      "Mozilla-Public",
-      "GNU-General-Public",
-      "Common-Development-and Distribution",
-      "None",
-    ]
-    
+      "Unlicense",
+      "Apache 2.0",
+      "GNU v3",
+      "BSD 3-Clause",
+      "Mozilla Public License 2.0",
+    ],
   },
 ];
 
