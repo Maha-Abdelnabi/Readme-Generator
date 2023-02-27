@@ -10,9 +10,13 @@ The purpose of this project is to demonstrate the README generator project.
 
 
  [Installation](#installation)
+
  [Usage](#usage)
+
  [License](#licensing)
+ 
  [Contribution](#contribution)
+ 
  [Testing](#testing)
 
 
