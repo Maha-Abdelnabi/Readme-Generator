@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/github/license/tiffany-brand/professional-README-generator?style=plastic)](https://opensource.org/license/mit/)
   ## Visual Presentation
 
-  ![Professional Readme Generator Demo](./demo/record-readme.mp4)
+  ![Professional Readme Generator Demo](https://github.com/Maha-Abdelnabi/Readme-Generator/blob/1e3041d1892485caa56adda20d4947f7eea02bdc/demo/record-readme.mp4)
 
  ## Description:
   This project is a command line application that automatically generates a professional README markdown file for a repository based on answers from the user. When the application runs, it presents a series of prompts to the user to fill in sections in the README. Then the README markdown file with the user information is saved inside the output folder.
