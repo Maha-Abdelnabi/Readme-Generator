@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/github/license/tiffany-brand/professional-README-generator?style=plastic)](https://opensource.org/license/mit/)
   ## Visual Presentation
-  ![Professional Readme Generator Demo](https://drive.google.com/file/d/1_ajDcRj0rg6RP-bQclnNUtP8yhrO09p5/view?usp=sharing)
+  ![Professional Readme Generator Demo](./demo/screen-record.webm)
 
  ## Description:
 
