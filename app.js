@@ -55,6 +55,19 @@ const questions = [
       "Mozilla Public License 2.0",
     ],
   },
+  // Github Username
+  {
+    type: "input",
+    name: "github",
+    message: "Enter your GitHub Username",
+   
+  },
+  // Email Address
+  {
+    type: "input",
+    name: "email",
+    message: "Enter your email address?",
+  }
 ];
 
 //function to write README file
