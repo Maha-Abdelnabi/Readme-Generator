@@ -7,17 +7,18 @@ function generateMarkdown(data) {
   // return markdown content
   return `# ${data.title}
 
+ ## Description:
+  ${data.description}
+
+
  ## Table of Contents 
-  - [Description](#description)
+  
   - [Installation](#installation)
   - [Usage](#usage)
+  - [License](#licensing)
   - [Contribution](#contribution)
   - [Testing](#testing)
-  - [Additional Info](#additional-info)
 
-
-  ## Description:
-  ${data.description}
 
   ## Installation:
   ${data.installation}
