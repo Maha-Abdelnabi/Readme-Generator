@@ -45,16 +45,16 @@ const questions = [
   },
   // License Options
   {
-    type: "checkbox",
-    name: "licensing",
+    type: "list",
+    name: "license",
     message: "Choose a license for your project.",
     choices: [
       "MIT",
       "Unlicense",
-      "Apache 2.0",
-      "GNU v3",
-      "BSD 3-Clause",
-      "Mozilla Public License 2.0",
+      "Apache",
+      "GNU",
+      "BSD",
+      "Mozilla",
     ],
   },
   // Github Username

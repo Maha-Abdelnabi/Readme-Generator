@@ -1,11 +1,13 @@
-const licenseLinks = require("./licenseLink");
+const licenseLinks = require("./licenseLink.js");
 
-function generateMarkdown(data) {
+ function generateMarkdown(data) {
   // set url for license badge
-  data.licenseBadge = licenseLinks[data.license];
+ data.licenseBadge = licenseLinks[data.license];
 
   // return markdown content
   return `# ${data.title}
+
+${data.licenseBadge}
 
  ## Description:
   ${data.description}
@@ -27,10 +29,10 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License:
-  ${data.licensing}
+   This repository is licensed under the ${data.license} license.
 
   ## Contribution:
-  This repository is licensed under the${data.contribution} license.
+  ${data.contribution}
 
   ## Testing:
   ${data.testing}
@@ -38,6 +40,6 @@ function generateMarkdown(data) {
 ## Additional Info:
   - Github: [${data.github}](https://github.com/${data.github})
   - Email: ${data.email} `;
-}
 
+ }
 module.exports = generateMarkdown;
