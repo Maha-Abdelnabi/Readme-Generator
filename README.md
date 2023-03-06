@@ -1,9 +1,9 @@
-# e
+# Professional Readme Generator
 
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
  ## Description:
-  e
+  This project is a command line application that automatically generates a professional README markdown file for a repository based on answers from the user. When the application runs, it presents a series of prompts to the user to fill in sections in the README. Then the README markdown file with the user information is saved inside the output folder.
 
 
  ## Table of Contents 
@@ -16,20 +16,20 @@
 
 
   ## Installation:
-  e
+  Download it through Github and Ensure inquirer is installed
 
   ## Usage:
-  e
+  GIVEN a command-line application that accepts user input
 
   ## License:
-   This repository is licensed under the Mozilla license.
+   This repository is licensed under the MIT license.
 
   ## Contribution:
-  e
+  N/A
 
   ## Testing:
-  e
+  N/A
 
 ## Additional Info:
-  - Github: [e](https://github.com/e)
-  - Email: e 
+  - Github: [Maha-Abdelnabi](https://github.com/Maha-Abdelnabi)
+  - Email: mahaomar81@gmail.com 
