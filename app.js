@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./generateMarkdown.js");
 
-console.log("Welcome! please answet the following questions to generate README for your project")
+console.log("Welcome! please answet the following questions to generate README for your project!")
 
 
 // title of  project and  Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
